@@ -1,8 +1,6 @@
 import { Box, useColorModeValue, useToast } from "@chakra-ui/react";
 import axios from "axios";
-import Actions from "./Actions";
 import Data from "./Data";
-import Profile from "./Profile";
 import { useSelector } from "react-redux";
 import { setToast } from "../../utils/extraFunctions";
 import { useState } from "react";
